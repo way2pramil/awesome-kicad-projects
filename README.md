@@ -186,6 +186,7 @@
 * [Corne (crkbd)](https://github.com/foostan/crkbd) - A very popular split ergonomic keyboard with a columnar stagger layout.
 * [Kyria](https://github.com/splitkb/kyria) - A feature-rich split ergonomic keyboard from splitkb with full KiCad sources.
 * [Lily58](https://github.com/kata0510/Lily58) - A 58-key split keyboard with OLED display support and per-key LEDs.
+* [Piantor](https://github.com/beekeeb/piantor) - A beginner-friendly diodeless 42/36-key split keyboard powered by the RP2040, based on the Cantor layout.
 
 **Full Custom Keyboards**
 
