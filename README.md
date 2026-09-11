@@ -26,6 +26,8 @@
 - [🔧 Debugging & Test Tools](#-debugging--test-tools)
 - [⌨️ Keyboards & Input Devices](#️-keyboards--input-devices)
 - [❤️ Medical & Health](#️-medical--health)
+- [🔬 Science & Space](#-science--space)
+- [⏪ Retro & DIY Computing](#-retro--diy-computing)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
@@ -167,6 +169,27 @@
 
 * [HealthyPi](https://github.com/Protocentral/HealthyPi) - An open source vital signs monitor: ECG, respiration, SpO₂ and temperature.
 * [HeartyPatch](https://github.com/Protocentral/protocentral-healthypatch) - A wireless, single-lead ECG and heart-rate variability patch based on ESP32.
+
+## 🔬 Science & Space
+
+*Open hardware for research, biosignals and orbital missions.*
+
+**Research Instruments**
+
+* [piEEG](https://github.com/Pi-EEG/EEGwithRaspberryPI) - An open source shield that turns a Raspberry Pi into a brain-computer interface for measuring EEG, EMG and ECG biosignals.
+
+**Space**
+
+* [OreSat](https://github.com/oresat) - A fully open source CubeSat bus built by students — Oregon's first satellite, currently in low Earth orbit.
+
+## ⏪ Retro & DIY Computing
+
+*Build-it-yourself computers, from 8-bit classics to modern carriers.*
+
+**DIY Computers**
+
+* [Omega](https://github.com/skiselev/omega) - An open source MSX2-compatible home computer you can solder together yourself.
+* [Piunora](https://github.com/Diodes-Delight/Piunora-Hardware) - A Raspberry Pi Compute Module 4 carrier in the Arduino UNO form factor.
 
 ---
 
