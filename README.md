@@ -1,83 +1,126 @@
-# Awesome KiCad Projects [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+<div align="center">
 
-A curated list of awesome open source hardware projects whose PCBs are designed with [KiCad](https://www.kicad.org/), the free and open source electronics design automation suite.
+# ⚡ Awesome KiCad Projects
 
-Inspired by [awesome-python](https://github.com/vinta/awesome-python).
+**A curated list of awesome open source hardware whose PCBs are designed with [KiCad](https://www.kicad.org/) — the free and open source electronics design suite.**
 
-- [Awesome KiCad Projects](#awesome-kicad-projects)
-    - [Laptops and Computers](#laptops-and-computers)
-    - [FPGA and Development Boards](#fpga-and-development-boards)
-    - [USB and Security Keys](#usb-and-security-keys)
-    - [Radio and SDR](#radio-and-sdr)
-    - [Debugging and Test Tools](#debugging-and-test-tools)
-    - [Keyboards and Input Devices](#keyboards-and-input-devices)
-    - [Medical and Health](#medical-and-health)
-- [Contributing](#contributing)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/way2pramil/awesome-kicad-projects?style=social)](https://github.com/way2pramil/awesome-kicad-projects/stargazers)
+
+💡 *If it has a KiCad PCB and an open repo, it belongs here.*
+
+</div>
 
 ---
 
-## Laptops and Computers
+- [💻 Laptops & Computers](#-laptops--computers)
+- [🧠 FPGA & Development Boards](#-fpga--development-boards)
+- [🔐 USB & Security Keys](#-usb--security-keys)
+- [📡 Radio & SDR](#-radio--sdr)
+- [🔧 Debugging & Test Tools](#-debugging--test-tools)
+- [⌨️ Keyboards & Input Devices](#️-keyboards--input-devices)
+- [❤️ Medical & Health](#️-medical--health)
+- [🤝 Contributing](#-contributing)
+- [📜 License](#-license)
+
+---
+
+## 💻 Laptops & Computers
 
 *Fully open computers and laptop platforms with KiCad board sources.*
 
+**Open Laptops**
+
 * [MNT Reform](https://github.com/mntmn/reform) - A fully open source, DIY modular laptop built around standard components.
-* [MNT Pocket Reform](https://github.com/mntmn/pocket-reform) - A 7-inch open source mini laptop with mechanical keyboard, sibling of the MNT Reform.
+* [MNT Pocket Reform](https://github.com/mntmn/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard.
+
+**Modular Computing**
+
 * [EOMA68](https://rhombus-tech.net/embedded/EOMA68/) - Libre RISC-V computer card project with KiCad-designed modular PCBs.
 
-## FPGA and Development Boards
+## 🧠 FPGA & Development Boards
 
 *Open FPGA development boards and dev kits routed in KiCad.*
 
-* [iCEBreaker](https://github.com/icebreaker-fpga/icebreaker) - A well-known open source iCE40 FPGA development board for teaching and prototyping.
+**iCE40 Boards**
+
+* [iCEBreaker](https://github.com/icebreaker-fpga/icebreaker) - A well-known open source iCE40 FPGA board for teaching and prototyping.
 * [TinyFPGA](https://github.com/tinyfpga/TinyFPGA-BX) - A tiny, breadboard-friendly iCE40 FPGA board series.
 * [Fomu](https://github.com/im-tomu/fomu-hardware) - An iCE40UP5K FPGA that fits inside your USB port.
-* [OrangeCrab](https://github.com/orangecrab-fpga/orangecrab-hardware) - A compact ECP5 FPGA development board in the Adafruit Feather form factor.
-* [ULX3S](https://github.com/emard/ulx3s) - A powerful, fully open ECP5 FPGA board developed by the Radiona community.
 * [Alhambra II](https://github.com/FPGAwars/Alhambra-II-FPGA) - An open iCE40HX4K FPGA board from the FPGAwars community.
 
-## USB and Security Keys
+**ECP5 Boards**
+
+* [OrangeCrab](https://github.com/orangecrab-fpga/orangecrab-hardware) - A compact ECP5 FPGA board in the Adafruit Feather form factor.
+* [ULX3S](https://github.com/emard/ulx3s) - A powerful, fully open ECP5 FPGA board developed by the Radiona community.
+
+## 🔐 USB & Security Keys
 
 *Tiny USB form factor boards and open security keys.*
 
+**USB Form Factor**
+
 * [Tomu](https://github.com/im-tomu/tomu-hardware) - A tiny ARM Cortex-M0+ board that fits entirely inside a USB port.
-* [Somu](https://github.com/solokeys/solo1) - The secure version of Tomu, serving as the FIDO2 security key from SoloKeys.
+
+**FIDO2 Keys**
+
+* [Somu](https://github.com/solokeys/solo1) - The secure version of Tomu, the FIDO2 security key from SoloKeys.
 * [Solo](https://github.com/solokeys/solo1) - An open source FIDO2 + U2F security key with KiCad hardware sources.
 
-## Radio and SDR
+## 📡 Radio & SDR
 
 *Software defined radios and RF hardware with KiCad layouts.*
 
-* [HackRF One](https://github.com/greatscottgadgets/hackrf) - The popular open source software defined radio peripheral from Great Scott Gadgets.
+**SDR Peripherals**
+
+* [HackRF One](https://github.com/greatscottgadgets/hackrf) - The popular open source software defined radio from Great Scott Gadgets.
 * [LimeSDR](https://github.com/myriadrf/LimeSDR-USB) - A low-cost, open source, apps-enabled software defined radio platform.
+
+**Video & RF Processing**
+
 * [NeTV2](https://github.com/AlphamaxMedia/netv2-hardware) - An open source FPGA-based video overlay development board by bunnie.
 
-## Debugging and Test Tools
+## 🔧 Debugging & Test Tools
 
 *Bus tools, interface explorers and lab instruments.*
+
+**Interface Tools**
 
 * [Glasgow](https://github.com/GlasgowEmbedded/glasgow) - A powerful open source tool for exploring and manipulating digital interfaces.
 * [Bus Pirate 5](https://github.com/DangerousPrototypes/Bus_Pirate5-hardware) - The modern open source universal bus interface for debugging and talking to chips.
 
-## Keyboards and Input Devices
+## ⌨️ Keyboards & Input Devices
 
 *Open source mechanical keyboards and controllers.*
+
+**Split Ergonomic Keyboards**
 
 * [Corne (crkbd)](https://github.com/foostan/crkbd) - A very popular split ergonomic keyboard with a columnar stagger layout.
 * [Kyria](https://github.com/splitkb/kyria) - A feature-rich split ergonomic keyboard from splitkb with full KiCad sources.
 
-## Medical and Health
+## ❤️ Medical & Health
 
 *Open medical and biosensing hardware.*
 
-* [HealthyPi](https://github.com/Protocentral/HealthyPi) - An open source vital signs monitor measuring ECG, respiration, pulse oximetry and temperature.
+**Vital Signs & Biosensing**
+
+* [HealthyPi](https://github.com/Protocentral/HealthyPi) - An open source vital signs monitor: ECG, respiration, SpO₂ and temperature.
 * [HeartyPatch](https://github.com/Protocentral/protocentral-healthypatch) - A wireless, single-lead ECG and heart-rate variability patch based on ESP32.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](CONTRIBUTING.md) first.
+Your contributions are always welcome! Know an open hardware project whose PCB is designed in KiCad? Please take a look at the [contribution guidelines](CONTRIBUTING.md) first, then open a pull request.
 
-## License
+## 📜 License
 
 This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). See [LICENSE](LICENSE) for details.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=way2pramil/awesome-kicad-projects&type=Date)](https://star-history.com/#way2pramil/awesome-kicad-projects&Date)
