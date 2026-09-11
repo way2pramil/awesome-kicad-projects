@@ -15,8 +15,10 @@
 
 ---
 
+- [🌐 IoT & Wearables](#-iot--wearables)
+- [🧠 AI & Edge Computing](#-ai--edge-computing)
 - [💻 Laptops & Computers](#-laptops--computers)
-- [🧠 FPGA & Development Boards](#-fpga--development-boards)
+- [🧩 FPGA & Development Boards](#-fpga--development-boards)
 - [🔐 USB & Security Keys](#-usb--security-keys)
 - [📡 Radio & SDR](#-radio--sdr)
 - [🔧 Debugging & Test Tools](#-debugging--test-tools)
@@ -26,6 +28,34 @@
 - [📜 License](#-license)
 
 ---
+
+## 🌐 IoT & Wearables
+
+*Connected devices, smartwatches and low-power sensor boards for the Internet of Things.*
+
+**Smartwatches & Wearables**
+
+* [Watchy](https://github.com/sqfmi/watchy-hardware) - A fully open source E-Ink smartwatch based on the ESP32, MIT licensed and OSHWA certified.
+* [Sensor Watch](https://github.com/joeycastillo/Sensor-Watch) - A drop-in replacement board that turns a classic Casio F-91W into a programmable ARM watch.
+* [Open-Smartwatch](https://github.com/Open-Smartwatch/open-smartwatch-light) - A DIY smartwatch platform with a custom OS and 3D printable cases.
+
+**Connected Displays & Smart Home**
+
+* [Smart Knob](https://github.com/scottbez1/smartknob) - A haptic input knob with software-defined detents and endstops, powered by a BLDC gimbal motor.
+* [Papyr](https://gitlab.com/electronutlabs-public/papyr) - A low power nRF52840 board with an E-Paper display for BLE, Thread and Zigbee IoT projects.
+
+**DIY Phones**
+
+* [ZeroPhone](https://github.com/ZeroPhone/ZeroPhone-PCBs) - An open source smartphone based on the Raspberry Pi Zero that you can assemble with just a soldering iron.
+
+## 🧠 AI & Edge Computing
+
+*Open carrier boards and platforms for machine learning at the edge.*
+
+**AI Carrier Boards**
+
+* [Jetson Nano Baseboard](https://github.com/antmicro/jetson-nano-baseboard) - An open source baseboard for the NVIDIA Jetson Nano / Xavier NX SoMs by Antmicro.
+* [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) - An open source carrier board for NVIDIA Jetson Orin modules for edge AI projects.
 
 ## 💻 Laptops & Computers
 
@@ -40,7 +70,7 @@
 
 * [EOMA68](https://rhombus-tech.net/embedded/EOMA68/) - Libre RISC-V computer card project with KiCad-designed modular PCBs.
 
-## 🧠 FPGA & Development Boards
+## 🧩 FPGA & Development Boards
 
 *Open FPGA development boards and dev kits routed in KiCad.*
 
