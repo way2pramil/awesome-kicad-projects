@@ -46,6 +46,7 @@
 **Connected Displays & Smart Home**
 
 * [Smart Knob](https://github.com/scottbez1/smartknob) - A haptic input knob with software-defined detents and endstops, powered by a BLDC gimbal motor.
+* [Splitflap](https://github.com/scottbez1/splitflap) - A DIY split-flap display with chainable driver boards and ESP32 control, designed for easy home assembly.
 * [Papyr](https://gitlab.com/electronutlabs-public/papyr) - A low power nRF52840 board with an E-Paper display for BLE, Thread and Zigbee IoT projects.
 
 **DIY Phones**
