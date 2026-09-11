@@ -69,10 +69,15 @@
 
 * [Crazyflie 2.1](https://github.com/bitcraze/crazyflie-electronics) - A palm-sized open source nano quadcopter platform used worldwide for education and swarm robotics research.
 
+**Flight Controllers**
+
+* [HadesFCS](https://github.com/pms67/HadesFCS) - A complete flight control system designed from scratch, with hardware, firmware and ground control software.
+
 **Motion Control & Automation**
 
 * [Duet 2](https://github.com/Duet3D/Duet-2-Hardware) - An open source 32-bit controller board for 3D printers, laser cutters and CNC machines.
 * [LumenPnP](https://github.com/opulo-inc/lumenpnp) - An open source pick and place machine for assembling your own circuit boards.
+* [ΛMULET](https://github.com/nguyen-v/amulet_controller_kibot) - A high-power 100A brushless motor controller compatible with moteus firmware, designed for legged robot actuators.
 
 ## 🏭 Industry 4.0 & Energy
 
