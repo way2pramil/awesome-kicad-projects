@@ -185,6 +185,7 @@
 **Bench Instruments**
 
 * [EEZ BB3](https://github.com/eez-open/modular-psu) - A modular open source bench power supply and test & measurement platform.
+* [Tiny Reflow Controller](https://github.com/rocketscream/TinyReflowController) - An all-in-one Arduino compatible reflow oven controller powered by the ATtiny1634R.
 
 **Debug Probes & Adapters**
 
