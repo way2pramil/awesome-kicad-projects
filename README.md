@@ -106,6 +106,11 @@
 
 * [MNT Reform](https://source.mnt.re/reform) - A fully open source, DIY modular laptop built around standard components.
 * [MNT Pocket Reform](https://source.mnt.re/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard.
+* [TERES I](https://github.com/OLIMEX/DIY-LAPTOP) - A do-it-yourself open source hardware laptop by Olimex, with ARM64 and x86 mainboard options.
+
+**Single-Board Computers**
+
+* [A64-OLinuXino](https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A64-OLinuXino) - An open source single-board computer from Olimex running Linux and Android on a 64-bit ARM CPU.
 
 ## 🧩 FPGA & Development Boards
 
