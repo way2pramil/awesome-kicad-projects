@@ -1,0 +1,29 @@
+name: Link Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly on Mondays
+    - cron: "43 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check links in README.md
+        run: |
+          docker run --rm -v "$PWD":/mnt dkhamsing/awesome_bot \
+            --allow-dupe \
+            --allow-redirect \
+            --skip-save-results \
+            --white-list "github.com/way2pramil/awesome-kicad-projects/stargazers" \
+            /mnt/README.md
