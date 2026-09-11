@@ -190,6 +190,9 @@
 
 * [DAP42](https://github.com/devanlai/dap42) - A compact open source CMSIS-DAP debug probe for ARM Cortex microcontrollers.
 * [Twonkie](https://github.com/dojoe/Twonkie) - A USB-C sniffer and engineering adapter for probing USB Power Delivery.
+* [Echo Debug](https://gitlab.com/phodina/echo-debug-gen3) - A debug interface board for accessing the fastboot protocol on Amazon Echo Gen 3 devices.
+* [NUCLEO2USB](https://github.com/dmitrystu/Nucleo2USB) - A USB full-speed shield for NUCLEO-64 compatible development boards.
+* [NUCO-V](https://github.com/dmitrystu/nuco-v) - A NUCLEO-64 compatible STM32F7/H7 development board with an integrated Black Magic debug probe.
 
 ## ⌨️ Keyboards & Input Devices
 
