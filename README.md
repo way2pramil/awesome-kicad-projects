@@ -66,6 +66,11 @@
 * [Jetson Nano Baseboard](https://github.com/antmicro/jetson-nano-baseboard) - An open source baseboard for the NVIDIA Jetson Nano / Xavier NX SoMs by Antmicro.
 * [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) - An open source carrier board for NVIDIA Jetson Orin modules for edge AI projects.
 
+**Edge AI Devices**
+
+* [Tokay Lite](https://github.com/maxlab-io/tokay-lite-pcb) - An ESP32 camera development board for low-power image processing and edge AI applications.
+* [Edgeberry](https://github.com/Edgeberry/Edgeberry-Baseboard) - A rugged Raspberry Pi-based Linux computer for deployment on the edge, with swappable hardware cartridges.
+
 ## 🤖 Robotics & Drones
 
 *Open robots, drones and motion control hardware.*
