@@ -78,6 +78,8 @@
 **Drones**
 
 * [Crazyflie](https://github.com/bitcraze/crazyflie-electronics) - KiCad design files for Bitcraze's palm-sized open source nano quadcopter, a platform used worldwide for education and swarm robotics research.
+* [TFGPS01](https://github.com/ThunderFly-aerospace/TFGPS01) - A multi-constellation GNSS receiver module for UAVs with improved RF noise immunity.
+* [AM32 ESC Dev Board](https://github.com/VimDrones/AM32_esc_development_board) - A development board for the open source AM32 ESC firmware, with a built-in motor for testing.
 
 **Flight Controllers**
 
@@ -88,6 +90,9 @@
 * [Duet 2](https://github.com/Duet3D/Duet-2-Hardware) - An open source 32-bit controller board for 3D printers, laser cutters and CNC machines.
 * [LumenPnP](https://github.com/opulo-inc/lumenpnp) - An open source pick and place machine for assembling your own circuit boards.
 * [ΛMULET](https://github.com/nguyen-v/amulet_controller_kibot) - A high-power 100A brushless motor controller compatible with moteus firmware, designed for legged robot actuators.
+* [SmartPrintCoreH7x](https://github.com/BoltzRnD/SmartPrintCoreH7x) - An open source 3D printer mainboard built around the STM32H7.
+* [ATMEGA328 Motor Board](https://github.com/AntonioMR/ATMEGA328-Motor-Board) - A general purpose motor controller around the ATmega328 and an L298P driver, running up to four motors.
+* [Driverino Shield](https://github.com/weirdgyn/Driverino-Shield) - A low power Arduino shield for driving sensored BLDC motors.
 
 ## 🏭 Industry 4.0 & Energy
 
