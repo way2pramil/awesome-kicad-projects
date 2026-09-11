@@ -107,6 +107,7 @@
 * [Open Inverter](https://github.com/teknomadix/Open_Inverter_2.0b_Kicad) - An open source electric vehicle motor controller, a KiCad redraw of Johannes Hübner's inverter design.
 * [Libre Solar MPPT 2420 HC](https://github.com/LibreSolar/mppt-2420-hc) - An open source MPPT solar charge controller for off-grid energy systems.
 * [Libre Solar BMS C1](https://github.com/LibreSolar/bms-c1) - An open source battery management system for lithium-ion battery packs, the successor to the 15S80 SC.
+* [Boatcontrol](https://github.com/antevens/boatcontrol) - A marine-grade smart electrical distribution panel and control system for boats and off-grid vehicles.
 
 ## 💻 Laptops & Computers
 
