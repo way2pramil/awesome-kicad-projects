@@ -53,6 +53,10 @@
 
 * [ZeroPhone](https://github.com/ZeroPhone/ZeroPhone-PCBs) - An open source smartphone based on the Raspberry Pi Zero that you can assemble with just a soldering iron.
 
+**Microcontroller Boards**
+
+* [ESP Rust Board](https://github.com/esp-rs/esp-rust-board) - An open hardware ESP32-C3 board in the Adafruit Feather form factor, designed for Rust embedded development.
+
 ## 🧠 AI & Edge Computing
 
 *Open carrier boards and platforms for machine learning at the edge.*
