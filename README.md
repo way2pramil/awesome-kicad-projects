@@ -116,6 +116,7 @@
 
 * [OrangeCrab](https://github.com/orangecrab-fpga/orangecrab-hardware) - A compact ECP5 FPGA board in the Adafruit Feather form factor.
 * [ULX3S](https://github.com/emard/ulx3s) - A powerful, fully open ECP5 FPGA board developed by the Radiona community.
+* [ButterStick](https://github.com/butterstick-fpga/butterstick-hardware) - An ECP5 FPGA board in a SODIMM form factor with a striking purple PCB.
 
 ## 🔐 USB & Security Keys
 
@@ -130,6 +131,11 @@
 * [Somu](https://github.com/solokeys/solo1) - The secure version of Tomu, the FIDO2 security key from SoloKeys.
 * [Solo](https://github.com/solokeys/solo1) - An open source FIDO2 + U2F security key with KiCad hardware sources.
 
+**USB Security Research**
+
+* [LUNA](https://github.com/greatscottgadgets/luna) - An open source multitool for monitoring, hacking and developing USB devices.
+* [GreatFET One](https://github.com/greatscottgadgets/greatfet) - An open source hardware hacking platform for reverse engineering USB and digital protocols.
+
 ## 📡 Radio & SDR
 
 *Software defined radios and RF hardware with KiCad layouts.*
@@ -143,6 +149,10 @@
 
 * [NeTV2](https://github.com/AlphamaxMedia/netv2-hardware) - An open source FPGA-based video overlay development board by bunnie.
 
+**Amateur Radio**
+
+* [Hermes-Lite 2](https://github.com/softerhardware/Hermes-Lite2) - A low-cost, fully open source HF software defined radio transceiver for amateur radio.
+
 ## 🔧 Debugging & Test Tools
 
 *Bus tools, interface explorers and lab instruments.*
@@ -152,6 +162,15 @@
 * [Glasgow](https://github.com/GlasgowEmbedded/glasgow) - A powerful open source tool for exploring and manipulating digital interfaces.
 * [Bus Pirate 5](https://github.com/DangerousPrototypes/Bus_Pirate5-hardware) - The modern open source universal bus interface for debugging and talking to chips.
 
+**Bench Instruments**
+
+* [EEZ BB3](https://github.com/eez-open/modular-psu) - A modular open source bench power supply and test & measurement platform.
+
+**Debug Probes & Adapters**
+
+* [DAP42](https://github.com/devanlai/dap42) - A compact open source CMSIS-DAP debug probe for ARM Cortex microcontrollers.
+* [Twonkie](https://github.com/dojoe/Twonkie) - A USB-C sniffer and engineering adapter for probing USB Power Delivery.
+
 ## ⌨️ Keyboards & Input Devices
 
 *Open source mechanical keyboards and controllers.*
@@ -160,6 +179,15 @@
 
 * [Corne (crkbd)](https://github.com/foostan/crkbd) - A very popular split ergonomic keyboard with a columnar stagger layout.
 * [Kyria](https://github.com/splitkb/kyria) - A feature-rich split ergonomic keyboard from splitkb with full KiCad sources.
+* [Lily58](https://github.com/kata0510/Lily58) - A 58-key split keyboard with OLED display support and per-key LEDs.
+
+**Full Custom Keyboards**
+
+* [Discipline 65](https://github.com/coseyfannitutti/discipline) - A popular open source 65% keyboard built entirely with through-hole components.
+
+**Mice & Trackballs**
+
+* [Ploopy Nano 2](https://github.com/ploopyco/nano-2-trackball) - A tiny open source trackball running QMK firmware, with 3D printable parts.
 
 ## ❤️ Medical & Health
 
@@ -169,6 +197,7 @@
 
 * [HealthyPi](https://github.com/Protocentral/HealthyPi) - An open source vital signs monitor: ECG, respiration, SpO₂ and temperature.
 * [HeartyPatch](https://github.com/Protocentral/protocentral-healthypatch) - A wireless, single-lead ECG and heart-rate variability patch based on ESP32.
+* [uECG](https://github.com/ultimaterobotics/uECG_pcb) - A very small open source wearable ECG device that streams raw data over BLE.
 
 ## 🔬 Science & Space
 
