@@ -68,7 +68,7 @@
 
 **Drones**
 
-* [Crazyflie 2.1](https://github.com/bitcraze/crazyflie-electronics) - A palm-sized open source nano quadcopter platform used worldwide for education and swarm robotics research.
+* [Crazyflie](https://github.com/bitcraze/crazyflie-electronics) - KiCad design files for Bitcraze's palm-sized open source nano quadcopter, a platform used worldwide for education and swarm robotics research.
 
 **Flight Controllers**
 
@@ -92,7 +92,7 @@
 
 * [Open Inverter](https://github.com/teknomadix/Open_Inverter_2.0b_Kicad) - An open source electric vehicle motor controller, a KiCad redraw of Johannes Hübner's inverter design.
 * [Libre Solar MPPT 2420 HC](https://github.com/LibreSolar/mppt-2420-hc) - An open source MPPT solar charge controller for off-grid energy systems.
-* [Libre Solar BMS 15S80 SC](https://github.com/LibreSolar/bms-15s80-sc) - An open source battery management system for lithium-ion battery packs.
+* [Libre Solar BMS C1](https://github.com/LibreSolar/bms-c1) - An open source battery management system for lithium-ion battery packs, the successor to the 15S80 SC.
 
 ## 💻 Laptops & Computers
 
@@ -100,12 +100,8 @@
 
 **Open Laptops**
 
-* [MNT Reform](https://github.com/mntmn/reform) - A fully open source, DIY modular laptop built around standard components.
-* [MNT Pocket Reform](https://github.com/mntmn/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard.
-
-**Modular Computing**
-
-* [EOMA68](https://rhombus-tech.net/embedded/EOMA68/) - Libre RISC-V computer card project with KiCad-designed modular PCBs.
+* [MNT Reform](https://source.mnt.re/reform) - A fully open source, DIY modular laptop built around standard components.
+* [MNT Pocket Reform](https://source.mnt.re/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard.
 
 ## 🧩 FPGA & Development Boards
 
@@ -113,7 +109,7 @@
 
 **iCE40 Boards**
 
-* [iCEBreaker](https://github.com/icebreaker-fpga/icebreaker) - A well-known open source iCE40 FPGA board for teaching and prototyping.
+* [iCEBreaker](https://codeberg.org/icebreaker-fpga/icebreaker) - A well-known open source iCE40 FPGA board for teaching and prototyping, now developed on Codeberg.
 * [TinyFPGA](https://github.com/tinyfpga/TinyFPGA-BX) - A tiny, breadboard-friendly iCE40 FPGA board series.
 * [Fomu](https://github.com/im-tomu/fomu-hardware) - An iCE40UP5K FPGA that fits inside your USB port.
 * [Alhambra II](https://github.com/FPGAwars/Alhambra-II-FPGA) - An open iCE40HX4K FPGA board from the FPGAwars community.
@@ -151,10 +147,6 @@
 * [HackRF One](https://github.com/greatscottgadgets/hackrf) - The popular open source software defined radio from Great Scott Gadgets.
 * [LimeSDR](https://github.com/myriadrf/LimeSDR-USB) - A low-cost, open source, apps-enabled software defined radio platform.
 
-**Video & RF Processing**
-
-* [NeTV2](https://github.com/AlphamaxMedia/netv2-hardware) - An open source FPGA-based video overlay development board by bunnie.
-
 **Amateur Radio**
 
 * [Hermes-Lite 2](https://github.com/softerhardware/Hermes-Lite2) - A low-cost, fully open source HF software defined radio transceiver for amateur radio.
@@ -166,7 +158,7 @@
 **Interface Tools**
 
 * [Glasgow](https://github.com/GlasgowEmbedded/glasgow) - A powerful open source tool for exploring and manipulating digital interfaces.
-* [Bus Pirate 5](https://github.com/DangerousPrototypes/Bus_Pirate5-hardware) - The modern open source universal bus interface for debugging and talking to chips.
+* [Bus Pirate 5](https://github.com/DangerousPrototypes/BusPirate5-hardware) - The modern open source universal bus interface for debugging and talking to chips.
 
 **Bench Instruments**
 
@@ -184,7 +176,6 @@
 **Split Ergonomic Keyboards**
 
 * [Corne (crkbd)](https://github.com/foostan/crkbd) - A very popular split ergonomic keyboard with a columnar stagger layout.
-* [Kyria](https://github.com/splitkb/kyria) - A feature-rich split ergonomic keyboard from splitkb with full KiCad sources.
 * [Lily58](https://github.com/kata0510/Lily58) - A 58-key split keyboard with OLED display support and per-key LEDs.
 * [Piantor](https://github.com/beekeeb/piantor) - A beginner-friendly diodeless 42/36-key split keyboard powered by the RP2040, based on the Cantor layout.
 
@@ -206,8 +197,7 @@
 
 **Vital Signs & Biosensing**
 
-* [HealthyPi](https://github.com/Protocentral/HealthyPi) - An open source vital signs monitor: ECG, respiration, SpO₂ and temperature.
-* [HeartyPatch](https://github.com/Protocentral/protocentral-healthypatch) - A wireless, single-lead ECG and heart-rate variability patch based on ESP32.
+* [HealthyPi Move](https://github.com/Protocentral/healthypi-move-hw) - An open source wearable vital signs monitor with ECG, SpO₂ and blood pressure trending, with full KiCad PCB sources.
 * [uECG](https://github.com/ultimaterobotics/uECG_pcb) - A very small open source wearable ECG device that streams raw data over BLE.
 
 ## 🔬 Science & Space
