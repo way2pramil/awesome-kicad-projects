@@ -167,6 +167,7 @@
 
 * [HackRF One](https://github.com/greatscottgadgets/hackrf) - The popular open source software defined radio from Great Scott Gadgets.
 * [LimeSDR](https://github.com/myriadrf/LimeSDR-USB) - A low-cost, open source, apps-enabled software defined radio platform.
+* [Ubertooth One](https://github.com/greatscottgadgets/ubertooth) - An open source 2.4 GHz wireless development platform for Bluetooth experimentation and security research.
 
 **Amateur Radio**
 
