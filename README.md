@@ -17,6 +17,8 @@
 
 - [🌐 IoT & Wearables](#-iot--wearables)
 - [🧠 AI & Edge Computing](#-ai--edge-computing)
+- [🤖 Robotics & Drones](#-robotics--drones)
+- [🏭 Industry 4.0 & Energy](#-industry-40--energy)
 - [💻 Laptops & Computers](#-laptops--computers)
 - [🧩 FPGA & Development Boards](#-fpga--development-boards)
 - [🔐 USB & Security Keys](#-usb--security-keys)
@@ -56,6 +58,33 @@
 
 * [Jetson Nano Baseboard](https://github.com/antmicro/jetson-nano-baseboard) - An open source baseboard for the NVIDIA Jetson Nano / Xavier NX SoMs by Antmicro.
 * [Jetson Orin Baseboard](https://github.com/antmicro/jetson-orin-baseboard) - An open source carrier board for NVIDIA Jetson Orin modules for edge AI projects.
+
+## 🤖 Robotics & Drones
+
+*Open robots, drones and motion control hardware.*
+
+**Drones**
+
+* [Crazyflie 2.1](https://github.com/bitcraze/crazyflie-electronics) - A palm-sized open source nano quadcopter platform used worldwide for education and swarm robotics research.
+
+**Motion Control & Automation**
+
+* [Duet 2](https://github.com/Duet3D/Duet-2-Hardware) - An open source 32-bit controller board for 3D printers, laser cutters and CNC machines.
+* [LumenPnP](https://github.com/opulo-inc/lumenpnp) - An open source pick and place machine for assembling your own circuit boards.
+
+## 🏭 Industry 4.0 & Energy
+
+*Industrial connectivity, power electronics and smart energy hardware.*
+
+**Industrial Connectivity**
+
+* [CANtact](https://github.com/linklayer/cantact-hw) - An open source USB to CAN bus adapter for automotive and industrial networks.
+
+**Power & Energy**
+
+* [Open Inverter](https://github.com/teknomadix/Open_Inverter_2.0b_Kicad) - An open source electric vehicle motor controller, a KiCad redraw of Johannes Hübner's inverter design.
+* [Libre Solar MPPT 2420 HC](https://github.com/LibreSolar/mppt-2420-hc) - An open source MPPT solar charge controller for off-grid energy systems.
+* [Libre Solar BMS 15S80 SC](https://github.com/LibreSolar/bms-15s80-sc) - An open source battery management system for lithium-ion battery packs.
 
 ## 💻 Laptops & Computers
 
