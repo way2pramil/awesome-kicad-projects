@@ -240,6 +240,8 @@
 **Space**
 
 * [OreSat](https://github.com/oresat) - A fully open source CubeSat bus built by students — Oregon's first satellite, currently in low Earth orbit.
+* [UPSat](https://gitlab.com/librespacefoundation/upsat/upsat-obc-hardware) - The on-board computer of UPSat, the first satellite built with open source hardware and software.
+* [SatNOGS COMMS](https://gitlab.com/librespacefoundation/satnogs-comms/satnogs-comms-hardware) - An open source satellite telecommunications board from the Libre Space Foundation, designed for CubeSat missions.
 
 ## ⏪ Retro & DIY Computing
 
