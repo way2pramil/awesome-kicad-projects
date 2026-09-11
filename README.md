@@ -157,6 +157,7 @@
 
 * [LUNA](https://github.com/greatscottgadgets/luna) - An open source multitool for monitoring, hacking and developing USB devices.
 * [GreatFET One](https://github.com/greatscottgadgets/greatfet) - An open source hardware hacking platform for reverse engineering USB and digital protocols.
+* [USB armory Mk II](https://github.com/usbarmory/usbarmory) - An open source flash-drive-sized secure computer by Inverse Path, for hardware wallets, key storage and more.
 
 ## 📡 Radio & SDR
 
