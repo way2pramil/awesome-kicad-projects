@@ -208,6 +208,7 @@
 **Full Custom Keyboards**
 
 * [Discipline 65](https://github.com/coseyfannitutti/discipline) - A popular open source 65% keyboard built entirely with through-hole components.
+* [Bad Thing of the Edge](https://github.com/Pakequis/Bad-Thing-of-the-Edge-keyboard) - A 20-key open source gaming mechanical keyboard powered by the Raspberry Pi Pico.
 
 **Mice & Trackballs**
 
