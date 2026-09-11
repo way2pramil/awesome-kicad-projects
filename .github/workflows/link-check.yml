@@ -24,6 +24,9 @@ jobs:
           docker run --rm -v "$PWD":/mnt dkhamsing/awesome_bot \
             --allow-dupe \
             --allow-redirect \
+            --allow-timeout \
+            --allow-ssl \
+            --request-delay 1 \
             --skip-save-results \
             --white-list "github.com/way2pramil/awesome-kicad-projects/stargazers" \
             /mnt/README.md
