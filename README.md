@@ -224,6 +224,7 @@
 
 * [Omega](https://github.com/skiselev/omega) - An open source MSX2-compatible home computer you can solder together yourself.
 * [Piunora](https://github.com/Diodes-Delight/Piunora-Hardware) - A Raspberry Pi Compute Module 4 carrier in the Arduino UNO form factor.
+* [CM5 Minima](https://github.com/piecol/CM5_MINIMA_REV2) - A compact, feature-filled carrier board for the Raspberry Pi Compute Module 5.
 
 ---
 
