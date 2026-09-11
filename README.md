@@ -194,6 +194,10 @@
 
 * [Ploopy Nano 2](https://github.com/ploopyco/nano-2-trackball) - A tiny open source trackball running QMK firmware, with 3D printable parts.
 
+**Macro Decks**
+
+* [ESP32 TouchDown](https://github.com/DustinWatts/esp32-touchdown) - An open source touchscreen macro deck built around the ESP32, a DIY alternative to the Stream Deck.
+
 ## ❤️ Medical & Health
 
 *Open medical and biosensing hardware.*
