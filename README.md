@@ -135,6 +135,7 @@
 * [TinyFPGA](https://github.com/tinyfpga/TinyFPGA-BX) - A tiny, breadboard-friendly iCE40 FPGA board series.
 * [Fomu](https://github.com/im-tomu/fomu-hardware) - An iCE40UP5K FPGA that fits inside your USB port.
 * [Alhambra II](https://github.com/FPGAwars/Alhambra-II-FPGA) - An open iCE40HX4K FPGA board from the FPGAwars community.
+* [UPduino v3.0](https://github.com/tinyvision-ai-inc/upduino-v3.0) - A low-cost iCE40UP5K FPGA board in the Arduino Pro Mini form factor, MIT licensed.
 
 **ECP5 Boards**
 
