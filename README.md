@@ -28,6 +28,7 @@ A curated list of awesome open source hardware whose PCBs are designed with [KiC
 - [❤️ Medical & Health](#-medical--health)
 - [🔬 Science & Space](#-science--space)
 - [⏪ Retro & DIY Computing](#-retro--diy-computing)
+- [⭐ Star History](#-star-history)
 
 ---
 
@@ -253,7 +254,7 @@ Build-it-yourself computers, from 8-bit classics to modern carriers.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Your contributions are always welcome! Know an open hardware project whose PCB is designed in KiCad? Please take a look at the [contribution guidelines](CONTRIBUTING.md) first, then open a pull request.
 
