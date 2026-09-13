@@ -25,7 +25,7 @@ A curated list of awesome open source hardware whose PCBs are designed with [KiC
 - [📡 Radio & SDR](#-radio--sdr)
 - [🔧 Debugging & Test Tools](#-debugging--test-tools)
 - [⌨️ Keyboards & Input Devices](#-keyboards--input-devices)
-- [❤️ Medical & Health](#️-medical--health)
+- [❤️ Medical & Health](#-medical--health)
 - [🔬 Science & Space](#-science--space)
 - [⏪ Retro & DIY Computing](#-retro--diy-computing)
 
