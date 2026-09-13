@@ -24,7 +24,7 @@ A curated list of awesome open source hardware whose PCBs are designed with [KiC
 - [🔐 USB & Security Keys](#-usb--security-keys)
 - [📡 Radio & SDR](#-radio--sdr)
 - [🔧 Debugging & Test Tools](#-debugging--test-tools)
-- [⌨️ Keyboards & Input Devices](#️-keyboards--input-devices)
+- [⌨️ Keyboards & Input Devices](#-keyboards--input-devices)
 - [❤️ Medical & Health](#️-medical--health)
 - [🔬 Science & Space](#-science--space)
 - [⏪ Retro & DIY Computing](#-retro--diy-computing)
@@ -151,8 +151,7 @@ Tiny USB form factor boards and open security keys.
 
 #### FIDO2 Keys
 
-- [Somu](https://github.com/solokeys/solo1) - The secure version of Tomu, the FIDO2 security key from SoloKeys.
-- [Solo](https://github.com/solokeys/solo1) - An open source FIDO2 + U2F security key with KiCad hardware sources.
+- [Solo & Somu](https://github.com/solokeys/solo1) - Open source FIDO2 + U2F security keys from SoloKeys, including the tiny Tomu-sized Somu.
 
 #### USB Security Research
 
