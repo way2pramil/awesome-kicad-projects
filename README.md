@@ -117,7 +117,7 @@ Fully open computers and laptop platforms with KiCad board sources.
 #### Open Laptops
 
 - [MNT Reform](https://source.mnt.re/reform) - A fully open source, DIY modular laptop built around standard components.
-- [MNT Pocket Reform](https://source.mnt.re/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard.
+- [MNT Pocket Reform](https://github.com/torlye/pocket-reform) - A 7-inch open source mini laptop with a mechanical keyboard. *(Community mirror while source.mnt.re is down; official: source.mnt.re/reform/pocket-reform)*
 - [TERES I](https://github.com/OLIMEX/DIY-LAPTOP) - A do-it-yourself open source hardware laptop by Olimex, with ARM64 and x86 mainboard options.
 
 #### Single-Board Computers
@@ -234,7 +234,7 @@ Open hardware for research, biosignals and orbital missions.
 
 #### Research Instruments
 
-- [piEEG](https://github.com/Pi-EEG/EEGwithRaspberryPI) - An open source shield that turns a Raspberry Pi into a brain-computer interface for measuring EEG, EMG and ECG biosignals.
+- [piEEG](https://github.com/pieeg-club/EEGwithRaspberryPI) - An open source shield that turns a Raspberry Pi into a brain-computer interface for measuring EEG, EMG and ECG biosignals.
 
 #### Space
 
