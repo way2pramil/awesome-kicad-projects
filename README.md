@@ -41,6 +41,7 @@ Connected devices, smartwatches and low-power sensor boards for the Internet of 
 - [Watchy](https://github.com/sqfmi/watchy-hardware) - A fully open source E-Ink smartwatch based on the ESP32, MIT licensed and OSHWA certified.
 - [Sensor Watch](https://github.com/joeycastillo/Sensor-Watch) - A drop-in replacement board that turns a classic Casio F-91W into a programmable ARM watch.
 - [Open-Smartwatch](https://github.com/Open-Smartwatch/open-smartwatch-light) - A DIY smartwatch platform with a custom OS and 3D printable cases.
+- [ZSWatch](https://github.com/ZSWatch/ZSWatch) - An open-source Zephyr-based smartwatch with published KiCad hardware design and firmware. License: GPL-3.0
 
 #### Connected Displays & Smart Home
 
@@ -49,6 +50,7 @@ Connected devices, smartwatches and low-power sensor boards for the Internet of 
 - [Papyr](https://gitlab.com/electronutlabs-public/papyr) - A low power nRF52840 board with an E-Paper display for BLE, Thread and Zigbee IoT projects.
 - [ANAVI Light Controller](https://github.com/AnaviTechnology/anavi-light-controller) - A certified open source hardware WiFi controller for 12V RGB LED strips, with I2C sensor support.
 - [Turmlabor Nixie Clock](https://github.com/dm2lct/tlnixie) - An internet-connected nixie tube clock built around IN-14 tubes and an ESP12e.
+- [upsy-desky](https://github.com/tjhorner/upsy-desky) - An ESP32 controller that makes standing desks smarter, with MQTT and Home Assistant support. License: MIT
 
 #### DIY Phones
 
@@ -94,6 +96,8 @@ Open robots, drones and motion control hardware.
 - [SmartPrintCoreH7x](https://github.com/BoltzRnD/SmartPrintCoreH7x) - An open source 3D printer mainboard built around the STM32H7.
 - [ATMEGA328 Motor Board](https://github.com/AntonioMR/ATMEGA328-Motor-Board) - A general purpose motor controller around the ATmega328 and an L298P driver, running up to four motors.
 - [Driverino Shield](https://github.com/weirdgyn/Driverino-Shield) - A low power Arduino shield for driving sensored BLDC motors.
+- [Racer](https://github.com/StuckAtPrototype/Racer) - An autonomous racing RC car with custom PCB, firmware and 3D-printed parts. License: Apache-2.0
+- [stack-chan](https://github.com/stack-chan/stack-chan) - A JavaScript-driven companion robot built on M5Stack, with open KiCad schematics and 3D-printable shell. License: Apache-2.0
 
 ## 🏭 Industry 4.0 & Energy
 
@@ -102,6 +106,7 @@ Industrial connectivity, power electronics and smart energy hardware.
 #### Industrial Connectivity
 
 - [CANtact](https://github.com/linklayer/cantact-hw) - An open source USB to CAN bus adapter for automotive and industrial networks.
+- [ethersweep](https://github.com/Neumi/ethersweep) - An Ethernet-connected open source stepper motor controller with a web UI. License: MIT
 
 #### Power & Energy
 
@@ -187,6 +192,7 @@ Bus tools, interface explorers and lab instruments.
 
 - [EEZ BB3](https://github.com/eez-open/modular-psu) - A modular open source bench power supply and test & measurement platform.
 - [Tiny Reflow Controller](https://github.com/rocketscream/TinyReflowController) - An all-in-one Arduino compatible reflow oven controller powered by the ATtiny1634R.
+- [Logic Analyzer](https://github.com/gusmanb/logicanalyzer) - A 24-channel 100 Msps logic analyzer with WiFi streaming and a cross-platform GUI. License: GPL-3.0
 
 #### Debug Probes & Adapters
 
@@ -205,6 +211,8 @@ Open source mechanical keyboards and controllers.
 - [Corne (crkbd)](https://github.com/foostan/crkbd) - A very popular split ergonomic keyboard with a columnar stagger layout.
 - [Lily58](https://github.com/kata0510/Lily58) - A 58-key split keyboard with OLED display support and per-key LEDs.
 - [Piantor](https://github.com/beekeeb/piantor) - A beginner-friendly diodeless 42/36-key split keyboard powered by the RP2040, based on the Cantor layout.
+- [Djinn](https://github.com/tzarc/keyboards) - Custom split keyboard designs (Djinn, Ghoul, Kobold) by a QMK maintainer. License: CERN-OHL-S-2.0
+- [chocofi](https://github.com/pashutk/chocofi) - A split 36-key low-profile keyboard using Kailh Choc switches. License: CERN-OHL-P-2.0
 
 #### Full Custom Keyboards
 
