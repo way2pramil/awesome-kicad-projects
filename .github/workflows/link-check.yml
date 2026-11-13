@@ -19,6 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate project metadata and quality evidence
+        run: python scripts/audit_projects.py --validate-only
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2"

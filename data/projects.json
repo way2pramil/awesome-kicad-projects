@@ -1,6 +1,6 @@
 {
-  "description": "Metadata store for awesome-kicad-projects list entries. Maintained by the weekly KiCad List Curator task; do not hand-edit unless merging an approved candidate.",
-  "last_refresh": "2026-10-23T23:45:24+05:30",
+  "description": "Catalogue metadata. Curated identity and descriptions are merged with reviewed evidence from data/evidence.json; repository facts, KiCad versions and quality scores are refreshed by scripts/audit_projects.py.",
+  "last_refresh": "2026-11-13T06:37:59+00:00",
   "projects": [
     {
       "name": "Watchy",
@@ -1080,6 +1080,1426 @@
       "description": "Ethernet-connected open source stepper motor controller with web UI",
       "added_to_list": "2026-10-24",
       "status": "listed"
+    },
+    {
+      "name": "The Open Book",
+      "url": "https://github.com/joeycastillo/The-Open-Book",
+      "category": "Retro & DIY Computing",
+      "description": "An open source e-book reader with published electronics, firmware and mechanical designs",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "joeycastillo",
+      "license": "CC-BY-SA-4.0",
+      "stars": 8099,
+      "forks": 257,
+      "open_issues": 23,
+      "archived": false,
+      "created_at": "2019-08-13",
+      "pushed_at": "2023-12-05",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 2,
+          "schematic": 5,
+          "project": 2
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:26:48+00:00",
+      "quality": {
+        "score": 66,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:26:48+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 12,
+          "verification": 10,
+          "maintenance": 9,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "unknown",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/joeycastillo/The-Open-Book#state-of-the-book",
+          "checked_at": "2026-11-13",
+          "note": "Documents successfully fabricated driver revisions and working hardware."
+        }
+      }
+    },
+    {
+      "name": "PocketMage PDA",
+      "url": "https://github.com/TalismanDesign/PocketMage_PDA",
+      "category": "Retro & DIY Computing",
+      "description": "An ESP32-S3 E-Ink PDA with a thumb keyboard, open hardware and firmware",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "TalismanDesign",
+      "license": "Apache-2.0",
+      "stars": 2037,
+      "forks": 111,
+      "open_issues": 28,
+      "archived": false,
+      "created_at": "2024-12-03",
+      "pushed_at": "2026-11-10",
+      "default_branch": "main",
+      "kicad": {
+        "version": "9.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/TalismanDesign/PocketMage_PDA/blob/main/Resources/PCB/V3.5/einkPDA_screen/einkPDA_screen.kicad_pcb",
+        "file_format_version": "20241229",
+        "source_files": {
+          "pcb": 6,
+          "schematic": 5,
+          "project": 5
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:26:53+00:00",
+      "quality": {
+        "score": 66,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:26:53+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 16,
+          "verification": 0,
+          "maintenance": 15,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": false,
+          "placement": true,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": true,
+          "real_build_photo": "unknown",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete"
+    },
+    {
+      "name": "AxxSolder",
+      "url": "https://github.com/AxxAxx/AxxSolder",
+      "category": "Debugging & Test Tools",
+      "description": "A compact STM32 soldering station for JBC cartridges with USB Power Delivery support",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "AxxAxx",
+      "license": "GPL-3.0",
+      "stars": 1725,
+      "forks": 227,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2023-09-02",
+      "pushed_at": "2026-09-19",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 2,
+          "schematic": 2,
+          "project": 2
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:26:59+00:00",
+      "quality": {
+        "score": 92,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:26:59+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 22,
+          "verification": 20,
+          "maintenance": 15,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": true,
+          "placement": true,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": true,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/AxxAxx/AxxSolder#pcb",
+          "checked_at": "2026-11-13",
+          "note": "Shows manufactured PCBs with assembled components."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/AxxAxx/AxxSolder#temperature-calibration",
+          "checked_at": "2026-11-13",
+          "note": "Publishes measured calibration data and detailed bring-up and measurement procedures."
+        }
+      }
+    },
+    {
+      "name": "AIOC",
+      "url": "https://github.com/skuep/AIOC",
+      "category": "Radio & SDR",
+      "description": "An all-in-one USB audio, PTT and programming interface for amateur radios",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "skuep",
+      "license": "MIT",
+      "stars": 1446,
+      "forks": 117,
+      "open_issues": 43,
+      "archived": false,
+      "created_at": "2022-10-05",
+      "pushed_at": "2025-11-02",
+      "default_branch": "master",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20211014",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 1,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:01+00:00",
+      "quality": {
+        "score": 85,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:01+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 21,
+          "verification": 20,
+          "maintenance": 9,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": true,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": true,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/skuep/AIOC#how-to-assemble",
+          "checked_at": "2026-11-13",
+          "note": "Assembly guide uses photographs of the physical PCB."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/skuep/AIOC#tested-radios-so-far",
+          "checked_at": "2026-11-13",
+          "note": "Lists radios and software combinations tested with the hardware."
+        }
+      }
+    },
+    {
+      "name": "Bitaxe",
+      "url": "https://github.com/skot/bitaxe",
+      "category": "Industry 4.0 & Energy",
+      "description": "An open source Bitcoin ASIC miner with published board designs and manufacturing files",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "skot",
+      "license": "CERN-OHL-S-2.0",
+      "stars": 1376,
+      "forks": 218,
+      "open_issues": 14,
+      "archived": false,
+      "created_at": "2022-05-16",
+      "pushed_at": "2025-08-27",
+      "default_branch": "master",
+      "kicad": {
+        "version": "7",
+        "version_source": "readme",
+        "version_evidence": "https://github.com/skot/bitaxe/blob/master/readme.md",
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 5,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:07+00:00",
+      "quality": {
+        "score": 76,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:07+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 18,
+          "verification": 20,
+          "maintenance": 6,
+          "documentation_openness": 12
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/skot/bitaxe#the-bitaxeultra",
+          "checked_at": "2026-11-13",
+          "note": "Shows the physical Bitaxe Ultra assembly."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/skot/bitaxe#current-status",
+          "checked_at": "2026-11-13",
+          "note": "States that Bitaxe Ultra 204 hardware was verified and working."
+        }
+      }
+    },
+    {
+      "name": "Thor Control PCB",
+      "url": "https://github.com/AngelLM/ThorControlPCB",
+      "category": "Robotics & Drones",
+      "description": "The open Arduino Mega shield and manufacturing files used to control the Thor robotic arm",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "AngelLM",
+      "license": null,
+      "stars": 13,
+      "forks": 7,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-03-07",
+      "pushed_at": "2021-08-07",
+      "default_branch": "master",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": null,
+        "source_files": {
+          "pcb": 2,
+          "schematic": 1,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:37:57+00:00",
+      "quality": {
+        "score": 44,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:37:57+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 9,
+          "verification": 0,
+          "maintenance": 6,
+          "documentation_openness": 9
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": true,
+          "build_docs": false,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": true,
+          "real_build_photo": "unknown",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete"
+    },
+    {
+      "name": "Launch",
+      "url": "https://github.com/system76/launch",
+      "category": "Keyboards & Input Devices",
+      "description": "System76's open source configurable mechanical keyboard with an integrated high-speed USB hub",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "system76",
+      "license": "GPL-3.0",
+      "stars": 1435,
+      "forks": 69,
+      "open_issues": 28,
+      "archived": false,
+      "created_at": "2019-12-05",
+      "pushed_at": "2025-07-02",
+      "default_branch": "master",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 5,
+          "schematic": 11,
+          "project": 5
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:13+00:00",
+      "quality": {
+        "score": 57,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:13+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 3,
+          "verification": 10,
+          "maintenance": 9,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": true,
+          "build_docs": false,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/system76/launch#mechanical-design",
+          "checked_at": "2026-11-13",
+          "note": "Shows the manufactured keyboard and chassis."
+        },
+        "oshwa_certification": {
+          "status": "verified",
+          "url": "https://certification.oshwa.org/us001062.html",
+          "checked_at": "2026-11-13",
+          "note": "OSHWA UID US001062 is stated in the project README."
+        }
+      }
+    },
+    {
+      "name": "b-parasite",
+      "url": "https://github.com/rbaron/b-parasite",
+      "category": "IoT & Wearables",
+      "description": "A low-power open source soil moisture and environmental sensor with BLE and Zigbee support",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "rbaron",
+      "license": "CC-BY-SA-4.0",
+      "stars": 2468,
+      "forks": 189,
+      "open_issues": 46,
+      "archived": false,
+      "created_at": "2021-02-10",
+      "pushed_at": "2026-09-21",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 2,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:16+00:00",
+      "quality": {
+        "score": 71,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:16+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 11,
+          "verification": 10,
+          "maintenance": 15,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/rbaron/b-parasite",
+          "checked_at": "2026-11-13",
+          "note": "Shows physical PCB front/back and an installed sensor."
+        }
+      },
+      "license_source": "readme"
+    },
+    {
+      "name": "BioAmp v1.5",
+      "url": "https://github.com/upsidedownlabs/BioAmp-v1.5",
+      "category": "Medical & Health",
+      "description": "A compact biopotential amplifier for recording ECG, EMG, EEG and other biosignals",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "upsidedownlabs",
+      "license": "CERN-OHL-S-2.0",
+      "stars": 42,
+      "forks": 11,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2020-11-14",
+      "pushed_at": "2023-03-26",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20171130",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 1,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:19+00:00",
+      "quality": {
+        "score": 66,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:19+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 15,
+          "verification": 10,
+          "maintenance": 6,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": true,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/upsidedownlabs/BioAmp-v1.5#hardware",
+          "checked_at": "2026-11-13",
+          "note": "Includes an explicitly labelled assembled PCB photograph."
+        }
+      },
+      "license_source": "readme"
+    },
+    {
+      "name": "FEMTO",
+      "url": "https://github.com/mfolejewski/FEMTO",
+      "category": "FPGA & Development Boards",
+      "description": "A 12 by 12 mm RP2040 module with manufacturing files and a dedicated functional test board",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "mfolejewski",
+      "license": "CERN-OHL-1.2",
+      "stars": 159,
+      "forks": 19,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-08-18",
+      "pushed_at": "2022-12-08",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20211014",
+        "source_files": {
+          "pcb": 3,
+          "schematic": 2,
+          "project": 3
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:21+00:00",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:21+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 17,
+          "reproducibility": 19,
+          "verification": 20,
+          "maintenance": 6,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": false,
+          "bom": true,
+          "gerbers": false,
+          "placement": true,
+          "pdf_schematic": true,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/mfolejewski/FEMTO#photos",
+          "checked_at": "2026-11-13",
+          "note": "Shows assembled FEMTO modules and the tester."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/mfolejewski/FEMTO#description",
+          "checked_at": "2026-11-13",
+          "note": "Provides a dedicated test board and functional verification script."
+        },
+        "oshwa_certification": {
+          "status": "verified",
+          "url": "https://certification.oshwa.org/pl000009.html",
+          "checked_at": "2026-11-13",
+          "note": "OSHWA UID PL000009 is stated in the project README."
+        }
+      },
+      "license_source": "readme"
+    },
+    {
+      "name": "Open Linear Scale",
+      "url": "https://github.com/nichlock/open-linear-scale",
+      "category": "Science & Space",
+      "description": "An open capacitive linear encoder with PCBs, STM32 firmware, test data and measurement analysis",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "nichlock",
+      "license": "CERN-OHL-P-2.0",
+      "stars": 73,
+      "forks": 4,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-09-23",
+      "pushed_at": "2026-10-22",
+      "default_branch": "main",
+      "kicad": {
+        "version": "9.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/nichlock/open-linear-scale/blob/main/hardware/sensor-pcb/sensor-pcb.kicad_pcb",
+        "file_format_version": "20241229",
+        "source_files": {
+          "pcb": 2,
+          "schematic": 1,
+          "project": 2
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:26+00:00",
+      "quality": {
+        "score": 77,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:26+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 5,
+          "verification": 25,
+          "maintenance": 15,
+          "documentation_openness": 12
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": true,
+          "kicad_validation": true,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/nichlock/open-linear-scale#how-it-works",
+          "checked_at": "2026-11-13",
+          "note": "Shows physical sensor and reflector PCBs and the test assembly."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/nichlock/open-linear-scale#practical-accuracy-measurements",
+          "checked_at": "2026-11-13",
+          "note": "Publishes measurements against a Mitutoyo digital indicator and analysis of error sources."
+        }
+      },
+      "license_source": "readme"
+    },
+    {
+      "name": "Framework Expansion Cards",
+      "url": "https://github.com/FrameworkComputer/ExpansionCards",
+      "category": "Laptops & Computers",
+      "description": "Official reference designs and templates for replaceable Framework Laptop expansion cards",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "FrameworkComputer",
+      "license": "CC-BY-4.0",
+      "stars": 1123,
+      "forks": 74,
+      "open_issues": 6,
+      "archived": false,
+      "created_at": "2021-05-17",
+      "pushed_at": "2024-05-09",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20171130",
+        "source_files": {
+          "pcb": 3,
+          "schematic": 3,
+          "project": 3
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:29+00:00",
+      "quality": {
+        "score": 54,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:29+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 0,
+          "verification": 10,
+          "maintenance": 12,
+          "documentation_openness": 12
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": false,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/FrameworkComputer/ExpansionCards",
+          "checked_at": "2026-11-13",
+          "note": "Shows manufactured Framework expansion card hardware."
+        }
+      }
+    },
+    {
+      "name": "Wisteria",
+      "url": "https://github.com/protolux-electronics/wisteria_hardware",
+      "category": "IoT & Wearables",
+      "description": "A Nerves-powered E-Ink conference badge with an Allwinner processor and USB-C charging",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "protolux-electronics",
+      "license": "CERN-OHL-S-2.0",
+      "stars": 1,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2025-09-17",
+      "pushed_at": "2025-10-26",
+      "default_branch": "main",
+      "kicad": {
+        "version": "9.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/protolux-electronics/wisteria_hardware/blob/main/src/wisteria.kicad_pcb",
+        "file_format_version": "20241229",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 10,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:35+00:00",
+      "quality": {
+        "score": 63,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:35+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 17,
+          "reproducibility": 5,
+          "verification": 20,
+          "maintenance": 9,
+          "documentation_openness": 12
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": false,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/protolux-electronics/wisteria_hardware",
+          "checked_at": "2026-11-13",
+          "note": "Shows physical conference badge hardware."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/protolux-electronics/wisteria_hardware#acknowledgments",
+          "checked_at": "2026-11-13",
+          "note": "Documents manufacture of 200 devices and processor bring-up; known issues are also disclosed."
+        }
+      }
+    },
+    {
+      "name": "QuokkADB Community Edition",
+      "url": "https://github.com/rabbitholecomputing/QuokkADB-community-edition-kicad",
+      "category": "Retro & DIY Computing",
+      "description": "An RP2040-based adapter that connects USB keyboards and mice to classic Apple ADB computers",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "rabbitholecomputing",
+      "license": "CERN-OHL-S-2.0",
+      "stars": 4,
+      "forks": 0,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2023-03-18",
+      "pushed_at": "2023-03-18",
+      "default_branch": "main",
+      "kicad": {
+        "version": "7",
+        "version_source": "readme",
+        "version_evidence": "https://github.com/rabbitholecomputing/QuokkADB-community-edition-kicad/blob/main/README.md",
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 3,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:41+00:00",
+      "quality": {
+        "score": 49,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:41+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 5,
+          "verification": 0,
+          "maintenance": 9,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "unknown",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "license_source": "readme"
+    },
+    {
+      "name": "Open 4in1 AM32 ESC",
+      "url": "https://github.com/OpenDrone-hw/OpenESC-20x20",
+      "category": "Robotics & Drones",
+      "description": "An open 20 by 20 mm four-in-one AM32 ESC for FPV drones, supporting 2S to 6S batteries",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "OpenDrone-hw",
+      "license": "CERN-OHL-S-2.0",
+      "stars": 281,
+      "forks": 85,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2026-03-09",
+      "pushed_at": "2026-11-11",
+      "default_branch": "main",
+      "kicad": {
+        "version": "10.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/OpenDrone-hw/OpenESC-20x20/blob/main/hardware/4in1-mini.kicad_pcb",
+        "file_format_version": "20260206",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 2,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:44+00:00",
+      "quality": {
+        "score": 50,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:44+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 0,
+          "verification": 0,
+          "maintenance": 15,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": false,
+          "ci": true,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "unknown",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete"
+    },
+    {
+      "name": "VESC6 Open Hardware",
+      "url": "https://github.com/craigg96/VESC6_OPEN_HARDWARE",
+      "category": "Robotics & Drones",
+      "description": "A reproducible VESC6-compatible motor controller with BOM and assembly-oriented design files",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "craigg96",
+      "license": "MIT",
+      "stars": 28,
+      "forks": 5,
+      "open_issues": 2,
+      "archived": false,
+      "created_at": "2025-03-27",
+      "pushed_at": "2026-09-14",
+      "default_branch": "main",
+      "kicad": {
+        "version": "9.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/craigg96/VESC6_OPEN_HARDWARE/blob/main/VESC6_OPEN_HARDWARE.kicad_pcb",
+        "file_format_version": "20241229",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 6,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:50+00:00",
+      "quality": {
+        "score": 75,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:50+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 21,
+          "verification": 10,
+          "maintenance": 12,
+          "documentation_openness": 12
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": true,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "unknown",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/craigg96/VESC6_OPEN_HARDWARE#testing-so-far",
+          "checked_at": "2026-11-13",
+          "note": "Documents bench tests of sensing functions and months of daily e-bike field use."
+        }
+      }
+    },
+    {
+      "name": "Pico 12V RGB HID Controller",
+      "url": "https://github.com/bluekeyes/pico-12vrgb-hid-controller",
+      "category": "IoT & Wearables",
+      "description": "A four-channel Raspberry Pi Pico RGB controller with USB HID and host control software",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "bluekeyes",
+      "license": "MIT",
+      "stars": 9,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2022-12-31",
+      "pushed_at": "2023-11-18",
+      "default_branch": "main",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 1,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:53+00:00",
+      "quality": {
+        "score": 70,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:53+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 6,
+          "verification": 20,
+          "maintenance": 9,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": true,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": false,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/bluekeyes/pico-12vrgb-hid-controller",
+          "checked_at": "2026-11-13",
+          "note": "Shows the assembled PCB and its installed enclosure."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/bluekeyes/pico-12vrgb-hid-controller#limitations",
+          "checked_at": "2026-11-13",
+          "note": "Documents testing with Windows 11 Dynamic Lighting and the included CLI."
+        }
+      }
+    },
+    {
+      "name": "ANAVI Thermometer",
+      "url": "https://github.com/AnaviTechnology/anavi-thermometer",
+      "category": "IoT & Wearables",
+      "description": "An OSHWA-certified ESP8266 temperature and humidity board with display and sensor expansion",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "AnaviTechnology",
+      "license": "CC-BY-SA-4.0",
+      "stars": 17,
+      "forks": 6,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2018-09-21",
+      "pushed_at": "2020-03-23",
+      "default_branch": "master",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20171130",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 10,
+          "project": 10
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:27:55+00:00",
+      "quality": {
+        "score": 46,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:27:55+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 5,
+          "verification": 0,
+          "maintenance": 6,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": false,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "unknown",
+          "hardware_tested": "unknown"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "oshwa_certification": {
+          "status": "verified",
+          "url": "https://certification.oshwa.org/bg000017.html",
+          "checked_at": "2026-11-13",
+          "note": "OSHWA UID BG000017 for ANAVI Thermometer."
+        }
+      },
+      "license_source": "readme"
+    },
+    {
+      "name": "JTAG Wire Adapter",
+      "url": "https://github.com/islandcontroller/jtag-wire-adapter",
+      "category": "Debugging & Test Tools",
+      "description": "A compact J-Link to JTAG/SWD adapter with documented prototype validation and compatibility testing",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/islandcontroller/jtag-wire-adapter#photos",
+          "checked_at": "2026-11-13",
+          "note": "Shows fabricated prototype PCBs and the assembled adapter."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/islandcontroller/jtag-wire-adapter#design-review-and-validation",
+          "checked_at": "2026-11-13",
+          "note": "Documents fabricated prototypes and a compatibility test with J-Link EDU and an STM32 board."
+        }
+      },
+      "author": "islandcontroller",
+      "license": "CERN-OHL-P-2.0",
+      "stars": 9,
+      "forks": 1,
+      "open_issues": 0,
+      "archived": false,
+      "created_at": "2022-12-10",
+      "pushed_at": "2023-08-02",
+      "default_branch": "master",
+      "kicad": {
+        "version": null,
+        "version_source": "unavailable",
+        "version_evidence": null,
+        "file_format_version": "20221018",
+        "source_files": {
+          "pcb": 1,
+          "schematic": 1,
+          "project": 1
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:37:59+00:00",
+      "quality": {
+        "score": 65,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:37:59+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 17,
+          "reproducibility": 7,
+          "verification": 20,
+          "maintenance": 6,
+          "documentation_openness": 15
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": false,
+          "bom": true,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": false,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": true,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete"
+    },
+    {
+      "name": "PlasmaTransformer",
+      "url": "https://github.com/inceptionev/PlasmaTransformer",
+      "category": "Science & Space",
+      "description": "An open plasma toroid driver with native board designs, manufacturing files and tuning instrumentation",
+      "added_to_list": "2026-11-13",
+      "status": "listed",
+      "author": "inceptionev",
+      "license": null,
+      "stars": 14,
+      "forks": 0,
+      "open_issues": 1,
+      "archived": false,
+      "created_at": "2025-04-30",
+      "pushed_at": "2026-10-15",
+      "default_branch": "master",
+      "kicad": {
+        "version": "9.0",
+        "version_source": "kicad_pcb_generator_version",
+        "version_evidence": "https://github.com/inceptionev/PlasmaTransformer/blob/master/Plasma%20Transformer%20PCB/PlasmaTransformer.kicad_pcb",
+        "file_format_version": "20241229",
+        "source_files": {
+          "pcb": 4,
+          "schematic": 4,
+          "project": 4
+        }
+      },
+      "repository_checked_at": "2026-11-13T06:28:01+00:00",
+      "quality": {
+        "score": 73,
+        "max_score": 100,
+        "score_version": "1.0",
+        "calculated_at": "2026-11-13T06:28:01+00:00",
+        "basis": "Public repository evidence only; not a rating of electrical design quality.",
+        "breakdown": {
+          "design_sources": 20,
+          "reproducibility": 12,
+          "verification": 20,
+          "maintenance": 12,
+          "documentation_openness": 9
+        },
+        "signals": {
+          "pcb": true,
+          "schematic": true,
+          "project": true,
+          "local_libraries": true,
+          "bom": true,
+          "gerbers": false,
+          "placement": false,
+          "pdf_schematic": false,
+          "build_docs": true,
+          "ci": false,
+          "kicad_validation": false,
+          "readme": true,
+          "docs": false,
+          "real_build_photo": "verified",
+          "hardware_tested": "verified"
+        }
+      },
+      "audit_status": "complete",
+      "evidence": {
+        "real_build_photo": {
+          "status": "verified",
+          "url": "https://github.com/inceptionev/PlasmaTransformer",
+          "checked_at": "2026-11-13",
+          "note": "Shows operating physical plasma toroid builds and manufactured hardware."
+        },
+        "hardware_tested": {
+          "status": "verified",
+          "url": "https://github.com/inceptionev/PlasmaTransformer#an-open-source-plasma-toroid-project-by-inceptionev-dr-bunga",
+          "checked_at": "2026-11-13",
+          "note": "Documents continuous operation, oscillation detection, tuning and revision-specific assembly findings."
+        }
+      }
     }
   ]
 }

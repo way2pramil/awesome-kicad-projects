@@ -42,6 +42,7 @@ Connected devices, smartwatches and low-power sensor boards for the Internet of 
 - [Sensor Watch](https://github.com/joeycastillo/Sensor-Watch) - A drop-in replacement board that turns a classic Casio F-91W into a programmable ARM watch.
 - [Open-Smartwatch](https://github.com/Open-Smartwatch/open-smartwatch-light) - A DIY smartwatch platform with a custom OS and 3D printable cases.
 - [ZSWatch](https://github.com/ZSWatch/ZSWatch) - An open-source Zephyr-based smartwatch with published KiCad hardware design and firmware. License: GPL-3.0
+- [Wisteria](https://github.com/protolux-electronics/wisteria_hardware) - A Nerves-powered E-Ink conference badge with an Allwinner processor and USB-C charging.
 
 #### Connected Displays & Smart Home
 
@@ -59,6 +60,12 @@ Connected devices, smartwatches and low-power sensor boards for the Internet of 
 #### Microcontroller Boards
 
 - [ESP Rust Board](https://github.com/esp-rs/esp-rust-board) - An open hardware ESP32-C3 board in the Adafruit Feather form factor, designed for Rust embedded development.
+
+#### Sensors & Interface Boards
+
+- [b-parasite](https://github.com/rbaron/b-parasite) - A low-power open source soil moisture and environmental sensor with BLE and Zigbee support.
+- [Pico 12V RGB HID Controller](https://github.com/bluekeyes/pico-12vrgb-hid-controller) - A four-channel Raspberry Pi Pico RGB controller with USB HID and host control software.
+- [ANAVI Thermometer](https://github.com/AnaviTechnology/anavi-thermometer) - An OSHWA-certified ESP8266 temperature and humidity board with display and sensor expansion.
 
 ## 🧠 AI & Edge Computing
 
@@ -83,6 +90,7 @@ Open robots, drones and motion control hardware.
 - [Crazyflie](https://github.com/bitcraze/crazyflie-electronics) - KiCad design files for Bitcraze's palm-sized open source nano quadcopter, a platform used worldwide for education and swarm robotics research.
 - [TFGPS01](https://github.com/ThunderFly-aerospace/TFGPS01) - A multi-constellation GNSS receiver module for UAVs with improved RF noise immunity.
 - [AM32 ESC Dev Board](https://github.com/VimDrones/AM32_esc_development_board) - A development board for the open source AM32 ESC firmware, with a built-in motor for testing.
+- [Open 4in1 AM32 ESC](https://github.com/OpenDrone-hw/OpenESC-20x20) - An open 20 by 20 mm four-in-one AM32 ESC for FPV drones, supporting 2S to 6S batteries.
 
 #### Flight Controllers
 
@@ -98,6 +106,8 @@ Open robots, drones and motion control hardware.
 - [Driverino Shield](https://github.com/weirdgyn/Driverino-Shield) - A low power Arduino shield for driving sensored BLDC motors.
 - [Racer](https://github.com/StuckAtPrototype/Racer) - An autonomous racing RC car with custom PCB, firmware and 3D-printed parts. License: Apache-2.0
 - [stack-chan](https://github.com/stack-chan/stack-chan) - A JavaScript-driven companion robot built on M5Stack, with open KiCad schematics and 3D-printable shell. License: Apache-2.0
+- [Thor Control PCB](https://github.com/AngelLM/ThorControlPCB) - The open Arduino Mega shield and manufacturing files used to control the Thor robotic arm.
+- [VESC6 Open Hardware](https://github.com/craigg96/VESC6_OPEN_HARDWARE) - A reproducible VESC6-compatible motor controller with BOM and assembly-oriented design files.
 
 ## 🏭 Industry 4.0 & Energy
 
@@ -114,6 +124,7 @@ Industrial connectivity, power electronics and smart energy hardware.
 - [Libre Solar MPPT 2420 HC](https://github.com/LibreSolar/mppt-2420-hc) - An open source MPPT solar charge controller for off-grid energy systems.
 - [Libre Solar BMS C1](https://github.com/LibreSolar/bms-c1) - An open source battery management system for lithium-ion battery packs, the successor to the 15S80 SC.
 - [Boatcontrol](https://github.com/antevens/boatcontrol) - A marine-grade smart electrical distribution panel and control system for boats and off-grid vehicles.
+- [Bitaxe](https://github.com/skot/bitaxe) - An open source Bitcoin ASIC miner with published board designs and manufacturing files.
 
 ## 💻 Laptops & Computers
 
@@ -128,6 +139,10 @@ Fully open computers and laptop platforms with KiCad board sources.
 #### Single-Board Computers
 
 - [A64-OLinuXino](https://github.com/OLIMEX/OLINUXINO/tree/master/HARDWARE/A64-OLinuXino) - An open source single-board computer from Olimex running Linux and Android on a 64-bit ARM CPU.
+
+#### Expansion Cards
+
+- [Framework Expansion Cards](https://github.com/FrameworkComputer/ExpansionCards) - Official reference designs and templates for replaceable Framework Laptop expansion cards.
 
 ## 🧩 FPGA & Development Boards
 
@@ -146,6 +161,10 @@ Open FPGA development boards and dev kits routed in KiCad.
 - [OrangeCrab](https://github.com/orangecrab-fpga/orangecrab-hardware) - A compact ECP5 FPGA board in the Adafruit Feather form factor.
 - [ULX3S](https://github.com/emard/ulx3s) - A powerful, fully open ECP5 FPGA board developed by the Radiona community.
 - [ButterStick](https://github.com/butterstick-fpga/butterstick-hardware) - An ECP5 FPGA board in a SODIMM form factor with a striking purple PCB.
+
+#### Microcontroller Modules
+
+- [FEMTO](https://github.com/mfolejewski/FEMTO) - A 12 by 12 mm RP2040 module with manufacturing files and a dedicated functional test board.
 
 ## 🔐 USB & Security Keys
 
@@ -178,6 +197,7 @@ Software defined radios and RF hardware with KiCad layouts.
 #### Amateur Radio
 
 - [Hermes-Lite 2](https://github.com/softerhardware/Hermes-Lite2) - A low-cost, fully open source HF software defined radio transceiver for amateur radio.
+- [AIOC](https://github.com/skuep/AIOC) - An all-in-one USB audio, PTT and programming interface for amateur radios.
 
 ## 🔧 Debugging & Test Tools
 
@@ -193,6 +213,7 @@ Bus tools, interface explorers and lab instruments.
 - [EEZ BB3](https://github.com/eez-open/modular-psu) - A modular open source bench power supply and test & measurement platform.
 - [Tiny Reflow Controller](https://github.com/rocketscream/TinyReflowController) - An all-in-one Arduino compatible reflow oven controller powered by the ATtiny1634R.
 - [Logic Analyzer](https://github.com/gusmanb/logicanalyzer) - A 24-channel 100 Msps logic analyzer with WiFi streaming and a cross-platform GUI. License: GPL-3.0
+- [AxxSolder](https://github.com/AxxAxx/AxxSolder) - A compact STM32 soldering station for JBC cartridges with USB Power Delivery support.
 
 #### Debug Probes & Adapters
 
@@ -201,6 +222,7 @@ Bus tools, interface explorers and lab instruments.
 - [Echo Debug](https://gitlab.com/phodina/echo-debug-gen3) - A debug interface board for accessing the fastboot protocol on Amazon Echo Gen 3 devices.
 - [NUCLEO2USB](https://github.com/dmitrystu/Nucleo2USB) - A USB full-speed shield for NUCLEO-64 compatible development boards.
 - [NUCO-V](https://github.com/dmitrystu/nuco-v) - A NUCLEO-64 compatible STM32F7/H7 development board with an integrated Black Magic debug probe.
+- [JTAG Wire Adapter](https://github.com/islandcontroller/jtag-wire-adapter) - A compact J-Link to JTAG/SWD adapter with documented prototype validation and compatibility testing.
 
 ## ⌨️ Keyboards & Input Devices
 
@@ -218,6 +240,7 @@ Open source mechanical keyboards and controllers.
 
 - [Discipline 65](https://github.com/coseyfannitutti/discipline) - A popular open source 65% keyboard built entirely with through-hole components.
 - [Bad Thing of the Edge](https://github.com/Pakequis/Bad-Thing-of-the-Edge-keyboard) - A 20-key open source gaming mechanical keyboard powered by the Raspberry Pi Pico.
+- [Launch](https://github.com/system76/launch) - System76's open source configurable mechanical keyboard with an integrated high-speed USB hub.
 
 #### Mice & Trackballs
 
@@ -235,6 +258,7 @@ Open medical and biosensing hardware.
 
 - [HealthyPi Move](https://github.com/Protocentral/healthypi-move-hw) - An open source wearable vital signs monitor with ECG, SpO₂ and blood pressure trending, with full KiCad PCB sources.
 - [uECG](https://github.com/ultimaterobotics/uECG_pcb) - A very small open source wearable ECG device that streams raw data over BLE.
+- [BioAmp v1.5](https://github.com/upsidedownlabs/BioAmp-v1.5) - A compact biopotential amplifier for recording ECG, EMG, EEG and other biosignals.
 
 ## 🔬 Science & Space
 
@@ -243,6 +267,8 @@ Open hardware for research, biosignals and orbital missions.
 #### Research Instruments
 
 - [piEEG](https://github.com/pieeg-club/EEGwithRaspberryPI) - An open source shield that turns a Raspberry Pi into a brain-computer interface for measuring EEG, EMG and ECG biosignals.
+- [Open Linear Scale](https://github.com/nichlock/open-linear-scale) - An open capacitive linear encoder with PCBs, STM32 firmware, test data and measurement analysis.
+- [PlasmaTransformer](https://github.com/inceptionev/PlasmaTransformer) - An open plasma toroid driver with native board designs, manufacturing files and tuning instrumentation.
 
 #### Space
 
@@ -259,6 +285,9 @@ Build-it-yourself computers, from 8-bit classics to modern carriers.
 - [Omega](https://github.com/skiselev/omega) - An open source MSX2-compatible home computer you can solder together yourself.
 - [Piunora](https://github.com/Diodes-Delight/Piunora-Hardware) - A Raspberry Pi Compute Module 4 carrier in the Arduino UNO form factor.
 - [CM5 Minima](https://github.com/piecol/CM5_MINIMA_REV2) - A compact, feature-filled carrier board for the Raspberry Pi Compute Module 5.
+- [The Open Book](https://github.com/joeycastillo/The-Open-Book) - An open source e-book reader with published electronics, firmware and mechanical designs.
+- [PocketMage PDA](https://github.com/TalismanDesign/PocketMage_PDA) - An ESP32-S3 E-Ink PDA with a thumb keyboard, open hardware and firmware.
+- [QuokkADB Community Edition](https://github.com/rabbitholecomputing/QuokkADB-community-edition-kicad) - An RP2040-based adapter that connects USB keyboards and mice to classic Apple ADB computers.
 
 ---
 

@@ -1,0 +1,199 @@
+{
+  "description": "Human-reviewed evidence for data/projects.json. Automation may refresh repository facts, but only reviewed evidence with a URL earns photo or hardware-test points.",
+  "projects": {
+    "https://github.com/joeycastillo/The-Open-Book": {
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/joeycastillo/The-Open-Book#state-of-the-book",
+        "checked_at": "2026-11-13",
+        "note": "Documents successfully fabricated driver revisions and working hardware."
+      }
+    },
+    "https://github.com/AxxAxx/AxxSolder": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/AxxAxx/AxxSolder#pcb",
+        "checked_at": "2026-11-13",
+        "note": "Shows manufactured PCBs with assembled components."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/AxxAxx/AxxSolder#temperature-calibration",
+        "checked_at": "2026-11-13",
+        "note": "Publishes measured calibration data and detailed bring-up and measurement procedures."
+      }
+    },
+    "https://github.com/skuep/AIOC": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/skuep/AIOC#how-to-assemble",
+        "checked_at": "2026-11-13",
+        "note": "Assembly guide uses photographs of the physical PCB."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/skuep/AIOC#tested-radios-so-far",
+        "checked_at": "2026-11-13",
+        "note": "Lists radios and software combinations tested with the hardware."
+      }
+    },
+    "https://github.com/skot/bitaxe": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/skot/bitaxe#the-bitaxeultra",
+        "checked_at": "2026-11-13",
+        "note": "Shows the physical Bitaxe Ultra assembly."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/skot/bitaxe#current-status",
+        "checked_at": "2026-11-13",
+        "note": "States that Bitaxe Ultra 204 hardware was verified and working."
+      }
+    },
+    "https://github.com/system76/launch": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/system76/launch#mechanical-design",
+        "checked_at": "2026-11-13",
+        "note": "Shows the manufactured keyboard and chassis."
+      },
+      "oshwa_certification": {
+        "status": "verified",
+        "url": "https://certification.oshwa.org/us001062.html",
+        "checked_at": "2026-11-13",
+        "note": "OSHWA UID US001062 is stated in the project README."
+      }
+    },
+    "https://github.com/rbaron/b-parasite": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/rbaron/b-parasite",
+        "checked_at": "2026-11-13",
+        "note": "Shows physical PCB front/back and an installed sensor."
+      }
+    },
+    "https://github.com/upsidedownlabs/BioAmp-v1.5": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/upsidedownlabs/BioAmp-v1.5#hardware",
+        "checked_at": "2026-11-13",
+        "note": "Includes an explicitly labelled assembled PCB photograph."
+      }
+    },
+    "https://github.com/mfolejewski/FEMTO": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/mfolejewski/FEMTO#photos",
+        "checked_at": "2026-11-13",
+        "note": "Shows assembled FEMTO modules and the tester."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/mfolejewski/FEMTO#description",
+        "checked_at": "2026-11-13",
+        "note": "Provides a dedicated test board and functional verification script."
+      },
+      "oshwa_certification": {
+        "status": "verified",
+        "url": "https://certification.oshwa.org/pl000009.html",
+        "checked_at": "2026-11-13",
+        "note": "OSHWA UID PL000009 is stated in the project README."
+      }
+    },
+    "https://github.com/nichlock/open-linear-scale": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/nichlock/open-linear-scale#how-it-works",
+        "checked_at": "2026-11-13",
+        "note": "Shows physical sensor and reflector PCBs and the test assembly."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/nichlock/open-linear-scale#practical-accuracy-measurements",
+        "checked_at": "2026-11-13",
+        "note": "Publishes measurements against a Mitutoyo digital indicator and analysis of error sources."
+      }
+    },
+    "https://github.com/FrameworkComputer/ExpansionCards": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/FrameworkComputer/ExpansionCards",
+        "checked_at": "2026-11-13",
+        "note": "Shows manufactured Framework expansion card hardware."
+      }
+    },
+    "https://github.com/protolux-electronics/wisteria_hardware": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/protolux-electronics/wisteria_hardware",
+        "checked_at": "2026-11-13",
+        "note": "Shows physical conference badge hardware."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/protolux-electronics/wisteria_hardware#acknowledgments",
+        "checked_at": "2026-11-13",
+        "note": "Documents manufacture of 200 devices and processor bring-up; known issues are also disclosed."
+      }
+    },
+    "https://github.com/craigg96/VESC6_OPEN_HARDWARE": {
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/craigg96/VESC6_OPEN_HARDWARE#testing-so-far",
+        "checked_at": "2026-11-13",
+        "note": "Documents bench tests of sensing functions and months of daily e-bike field use."
+      }
+    },
+    "https://github.com/bluekeyes/pico-12vrgb-hid-controller": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/bluekeyes/pico-12vrgb-hid-controller",
+        "checked_at": "2026-11-13",
+        "note": "Shows the assembled PCB and its installed enclosure."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/bluekeyes/pico-12vrgb-hid-controller#limitations",
+        "checked_at": "2026-11-13",
+        "note": "Documents testing with Windows 11 Dynamic Lighting and the included CLI."
+      }
+    },
+    "https://github.com/AnaviTechnology/anavi-thermometer": {
+      "oshwa_certification": {
+        "status": "verified",
+        "url": "https://certification.oshwa.org/bg000017.html",
+        "checked_at": "2026-11-13",
+        "note": "OSHWA UID BG000017 for ANAVI Thermometer."
+      }
+    },
+    "https://github.com/islandcontroller/jtag-wire-adapter": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/islandcontroller/jtag-wire-adapter#photos",
+        "checked_at": "2026-11-13",
+        "note": "Shows fabricated prototype PCBs and the assembled adapter."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/islandcontroller/jtag-wire-adapter#design-review-and-validation",
+        "checked_at": "2026-11-13",
+        "note": "Documents fabricated prototypes and a compatibility test with J-Link EDU and an STM32 board."
+      }
+    },
+    "https://github.com/inceptionev/PlasmaTransformer": {
+      "real_build_photo": {
+        "status": "verified",
+        "url": "https://github.com/inceptionev/PlasmaTransformer",
+        "checked_at": "2026-11-13",
+        "note": "Shows operating physical plasma toroid builds and manufactured hardware."
+      },
+      "hardware_tested": {
+        "status": "verified",
+        "url": "https://github.com/inceptionev/PlasmaTransformer#an-open-source-plasma-toroid-project-by-inceptionev-dr-bunga",
+        "checked_at": "2026-11-13",
+        "note": "Documents continuous operation, oscillation detection, tuning and revision-specific assembly findings."
+      }
+    }
+  }
+}
